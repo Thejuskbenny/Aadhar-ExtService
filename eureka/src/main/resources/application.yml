@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    hostname: localhost
+    secure-port: 8761
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8761/aadhar/
+
+logging:
+  level:
+    root: WARN
