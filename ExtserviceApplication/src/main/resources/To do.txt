@@ -1,0 +1,30 @@
+CRUD operations on Aadhar Data can be done
+
+3 functions needs to be implemented;
+
+Validate Aadhar Details
+View Aadhar Details
+Update Address
+
+code to implement the Aadhar Module functionalities(including the repository layer for db interactions)
+
+implement business layer(AadharServiceImpl),
+			presentation layer(AadharController)
+			
+Basic Spring boot project for service registry is given;
+	add configuration for this application;
+
+
+
+
+Spring Microservices Implementation:
+
+1: For eureka- Spring boot project:
+	- configure eureka server to run on port no 8761
+
+2: for ExtserviceApplication Spring boot project:
+	-configure to run on 5555
+	-This Project has to be get registered with eureka server using the name as "AadharMS"
+	-verify the MS is working by sending the request as : http://localhost:5555/aadhar/12345678910
+	
+
